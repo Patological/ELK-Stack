@@ -6,12 +6,12 @@ The files in this repository were used to configure the network depicted below.
 ![Azure Network Topography](https://github.com/Patological/ELK-Stack/blob/main/Diagrams/azure%20network%20(2).jpg)
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+[filebeat playbook](https://github.com/Patological/ELK-Stack/blob/main/Ansible/filebeat-playbook.yml)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -33,12 +33,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name     | Function |   IP Address   | Operating System |
+|----------|----------|----------------|------------------|
+| Jump Box | Gateway  | 13.68.147.109  | Linux            |
+| Web-1    | Server   | 192.168.1.5    | Linux            |
+| Web-2    | Server   | 192.168.1.6    | Linux            |
+| ELK      |          | 104.43.130.121 | Linux            |
 
 ### Access Policies
 
