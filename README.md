@@ -3,7 +3,7 @@
 The files in this repository were used to configure the network depicted below.
 
 
-![Azure Network Topography](https://github.com/Patological/ELK-Stack/blob/main/Diagrams/azure%20network%20(2).jpg)
+![Azure Network Topography](https://github.com/Patological/ELK-Stack/blob/main/Diagrams/azure%20network%20diagram.jpg)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
