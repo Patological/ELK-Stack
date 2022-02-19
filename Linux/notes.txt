@@ -1,0 +1,26 @@
+powershell
+ls C:\Windows | Where-object {$_.name -like "*system*"}
+
+$_. allows you to reference the previous object
+
+-like is similar to grep
+
+
+common commands in ps
+set-location / cd
+get-childitem / ls, dir
+new-item / mkdir, touch
+remove-item / rm, rmdir
+get-location / pwd
+get-content / cat, type
+copy-item / cp
+move-item / mv
+write-output / echo
+get-alias / alias
+get-help / man
+get-process / ps
+stop-process / kill
+get-service / service --status-all
+
+
+
